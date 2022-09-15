@@ -1,0 +1,1272 @@
+body, html{
+	overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+	font-family: 	;
+	src: url(../font/Spartan/Spartan-Bold.ttf);
+}
+@font-face {
+	font-family: spartan-extraBold;
+	src: url(../font/Spartan/Spartan-ExtraBold.ttf);
+}
+@font-face {
+	font-family: spartan-extralight;
+	src: url(../font/Spartan/Spartan-ExtraLight.ttf);
+}
+@font-face {
+	font-family: spartan-light;
+	src: url(../font/Spartan/Spartan-Light.ttf);
+}
+@font-face {
+	font-family: spartan-medium;
+	src: url(../font/Spartan/Spartan-Medium.ttf);
+}
+@font-face {
+	font-family: spartan-regular;
+	src: url(../font/Spartan/Spartan-Regular.ttf);
+}
+@font-face {
+	font-family: spartan-semibold;
+	src: url(../font/Spartan/Spartan-SemiBold.ttf);
+}
+@font-face {
+	font-family: spartan-thin;
+	src: url(../font/Spartan/Spartan-Thin.ttf);
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: spartan-regular;
+}
+.container{
+	max-width: 1170px;
+}
+/*header*/
+.nav-logo{
+	margin: 22px 9px;
+	width: 100%;
+	max-width: 322px;
+}
+.nHHeaderInner{
+	display: flex;
+	justify-content: space-between;
+	/*align-items: baseline;*/
+}
+.nHCallBtnContainer{
+	background-color: #ff7043;
+	text-align: center;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	margin: 24px 10px;
+	border-radius: 50px;
+	height: 66px;
+	margin-right: 0;
+}
+.nHomePageHeader .nHCallBtnContainer a.outlinedBtn div.num:before {
+	color: #fff;
+	font-size: 18px;
+	font-family: "font awesome 5 free";
+	font-style: normal;
+	font-variant-caps: normal;
+	font-variant-ligatures: normal;
+	font-weight: 900;
+	content: "\f095";
+	margin-right: 12px;
+}
+.nHomePageHeader .nHCallBtnContainer a.outlinedBtn:before{
+	content: "";
+	line-height: 30px;
+	width: 47px;
+	height: 68px;
+	background-image: url(https://affordablehealthcoveragetoday.com/wp-content/uploads/2022/07/call-btn-img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	right: 15px;
+	top: -19px;
+}
+.nHCallBtnContainer .text{
+	font-size: 10px;
+}
+.outlinedBtn{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 308px;
+	flex-wrap: wrap;
+	padding-right: 55px;
+	align-content: center;
+	font-size: 18px;
+	position: relative;
+}
+.outlinedBtn .num{
+	font-weight: 700;
+	font-family: spartan-extraBold;
+}
+.outlinedBtn .text{
+	/*font-family: spartan-extralight;*/
+}
+.outlinedBtn .text, .outlinedBtn .num{
+	color: white;
+}
+/*nHomePageSec1*/
+.nHomePageSec1{
+	background-color: #cee!important;
+	min-height: 655px;
+	padding: 70px 0 55px;
+	background-repeat: no-repeat !important;
+	background-size: 35%!important;
+	background-position: 18% bottom!important;
+}
+.nHomePageSec1 .nHomePageSec1InnerLeft .h1{
+	font-family: 'EB Garamond', serif;
+	font-size: 44px;
+	line-height: 54px;
+	color: #16176e;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.nHomePageSec1 .nHomePageSec1InnerLeft .h4{
+	font-size: 20px;
+	line-height: 32px;
+	color: #16176e;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+/*nHomePageSec2*/
+.nHomePageSec2 {
+	padding: 30px 0;
+}
+.nHomePageSec2 .logosContainer{
+	text-align: center;
+	margin: 0;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.nHomePageSec2 .imgWrapper{
+	padding: 10px 14px;
+}
+.nHomePageSec2 .imgWrapper .resp-img{
+	width: 100%;
+	max-width: 161.23px;
+}
+/*nHomePageSec3*/
+.nHomePageSec3 {
+	padding: 28px 0 70px;
+}
+.nHomePageSec3 .resp-img{
+	width: 100%;
+	max-width: 555px;
+	display: inline-block;
+	margin: 0 auto;
+	height: auto;
+}
+.nHomePageSec3 .nHomePageSec3Inner{
+	margin: 0;
+}
+.nHomePageSec3 .nHomePageSec3InnerLeft{
+	padding-right: 40px;
+}
+.nHomePageSec3 .nHomePageSec3InnerLeft .h2{
+	font-size: 40px;
+	line-height: 50px;
+	color: #383838;
+	font-family: 'EB Garamond', serif;
+	margin-bottom: 20px;
+}
+.nHomePageSec3 .nHomePageSec3InnerLeft .p{
+	font-size: 16px;
+}
+/*nHomePageSec4*/
+.nHomePageSec4{
+	background-color: #cee;
+	padding: 80px 0;
+}
+.nHomePageSec4 .boxContainer{
+	flex-wrap: wrap;
+	margin-top: 45px;
+}
+.nHomePageSec4 .boxContainer .stepBox {
+	flex-basis: 344px;
+	min-height: 182px;
+	background-color: #fff;
+	padding: 12px;
+	position: relative;
+	counter-increment: stepBox;
+	margin: 10px 18px;
+}
+.nHomePageSec4 .boxContainer .stepBox:before {
+	content: "STEP " counter(stepBox);
+	color: #fff;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	background-color: #16176e;
+	position: absolute;
+	left: -8.75px;
+	width: 91px;
+	height: 34px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	top: 10px;
+}
+.nHomePageSec4 .boxContainer .stepBoxInner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.nHomePageSec4 .boxContainer .stepBoxInner .iconCon {
+	margin-bottom: 15px;
+}
+.nHomePageSec4 .boxContainer .stepBoxInner h3 {
+    flex-basis: 100%;
+    font-size: 20px;
+    line-height: 32px;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.nHomePageSec4 .nHomePageSec4Inner>h2{
+	font-size: 40px;
+	font-family: 'EB Garamond', serif;
+	line-height: 50px;
+	color: #383838;
+	text-align: center;
+	margin-bottom: 12px;
+}
+.custom-d-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nHomePageSec4 .secBtn{
+    width: 100%;
+    max-width: 344px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7043;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 40px auto 0 auto;
+    font-style: normal;
+    padding-top: 3px;
+    align-content: center;
+    vertical-align: middle;
+}
+/*nHomePageSec5*/
+.nHomePageSec5 {
+	padding: 70px 0;
+}
+.nHomePageSec5 .nHomePageSec5Inner>h2 {
+	font-size: 40px;
+	font-family: 'EB Garamond', serif;
+	line-height: 50px;
+	color: #383838;
+	text-align: center;
+	margin-bottom: 12px;
+}
+.nHomePageSec5 #nHTestSlider{
+	margin-top: 40px;
+}
+.nHomePageSec5 .testimonialBoxInner{
+	min-height: 399px;
+	width: 100%;
+	max-width: 550px;
+	background-color: #FFF;
+	border: 1px solid #DADADA;
+	padding: 30px 45px;
+	max-width: 575px;
+	margin: 10px auto 10px auto;
+	display: flex!important;
+	flex-wrap: wrap;
+}
+.nHomePageSec5 .testimonialBoxInner p{
+	position: relative;
+	padding-top: 55px;
+	font-size: 16px;
+}
+.nHomePageSec5 .testimonialBoxInner p:before {
+	content: "";
+	width: 45px;
+	height: 45px;
+	background-image: url(https://affordablehealthcoveragetoday.com/wp-content/uploads/2022/07/quote.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.nHomePageSec5 .testimonialBoxInner .authdiv {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	flex-basis: 100%;
+	align-items: flex-end;
+	margin-top: auto;
+	border-top: 1px solid rgba(112,112,112,.2);
+	padding-top: 28px;
+}
+.nHomePageSec5 .authdiv .authName {
+	margin-right: 12px;
+}
+.nHomePageSec5 .authdiv .authName h4 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+	color: #1A2A37;
+	margin-bottom: 0;
+}
+.nHomePageSec5 .authdiv .ratings i {
+	color: #FBC22D;
+	margin: 0 1px;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.nHomePageSec5 #nHTestSlider{
+	position: relative;
+}
+.nHomePageSec5 #nHTestSlider:before {
+	content: "";
+    width: 180px;
+    height: 180px;
+	background-image: url(https://affordablehealthcoveragetoday.com/wp-content/uploads/2022/07/circle-pink.png);
+	left: -50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	position: absolute;
+	z-index: -1;
+	right: auto;
+	top: auto;
+	bottom: 23%;
+}
+#nHTestSlider:after {
+    content: "";
+    width: 180px;
+    height: 180px;
+    background-image: url(https://affordablehealthcoveragetoday.com/wp-content/uploads/2022/07/circle-blue.png);
+    left: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    position: absolute;
+    z-index: -1;
+    right: -44px;
+    top: -39px;
+    bottom: auto;
+}
+.nHomePageSec4 .boxContainer .stepBox:after {
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 8.75px 7.62px 0;
+	border-color: transparent #070730 transparent transparent;
+	position: absolute;
+	left: -9px;
+	top: 44px;
+}
+.owl-dots{
+	display: none !important;
+}
+.owl-nav button:hover{
+	background-color: transparent !important;
+	color: black !important;
+}
+.owl-nav button{
+	display: inline-block !important;
+	padding: 0px 15px !important;
+	border-radius: 100% !important;
+	line-height: initial !important;
+	box-shadow: 0 3px 6px rgb(40 40 40 / 16%) !important;
+	font-size: 39px !important;
+	width: 46px !important;
+}
+						/*F-Q-section*/
+.nHomePageSec6{
+	padding: 80px 0px 70px 0px;
+    background-color: #fff;
+}
+.f-aq-heading-1{
+	font-size: 40px;
+    line-height: 50px;
+    color: #383838;
+    font-family: 'EB Garamond';
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.f-aq-heading-2{
+	font-size: 17px;
+    line-height: 26px;
+    color: #383838;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-bottom: 48px;
+    font-family: Spartan-Light;
+} 
+.nHomePageSec6 .accordionHeader:after {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    text-decoration: inherit;
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 12px;
+    display: flex;
+    color: #69942F;
+    justify-content: center;
+    align-items: center;
+}
+.nHomePageSec6 .nHomePageSec6InnerLeft>h2:before {
+    content: "";
+    width: 53.38px;
+    height: 53.31px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    position: absolute;
+    background-image: url(https://affordablehealthcoveragetoday.com/wp-content/uploads/2022/07/question-icon.svg);
+    left: 0;
+    top: 0;
+}
+.nHomePageSec6 .nHomePageSec6InnerRight:after {
+    content: "";
+    width: 191px;
+    height: 191px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    position: absolute;
+    z-index: 0;
+    background-image: url(https://affordablehealthcoveragetoday.com/wp-content/uploads/2022/07/circle-pink.png);
+    right: 0;
+    top: 20px;
+    right: -65px;
+    top: -55px;
+}
+.nHomePageSec6 .nHomePageSec6InnerRight:after {
+    right: -14px;
+}
+.activeCircle{
+	position: relative;
+    z-index: 9;
+    background: white;
+}
+.nHomePageSec6 .nHomePageSec6InnerLeft>h2{
+	flex-basis: 100%;
+    position: relative;
+    padding-top: 60px;
+}
+.nHomePageSec6 .accordionItem{
+	padding: 0 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #16176e;
+    margin-bottom: 20px;
+}
+.nHomePageSec6 .accordionHeader {
+	position: relative;
+    cursor: pointer;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nHomePageSec6 .accordionBody p{
+	color: #5f5f5f;
+	font-size: 16px;
+    line-height: 26px;
+    color: #383838;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: Spartan-Light;
+}
+.Coverage-heading{
+	display: none;
+}
+.nHomePageSec6 .accordionHeader h5.faqheading-box{
+	font-weight: 600!important;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1a2a37;
+    margin-bottom: 0;
+    flex-basis: calc(100% - 34px - 15px);
+    font-family: Spartan-Medium;
+}
+.nHomePageSec6 .nHomePageSec6Inner{
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.nHomePageSec6InnerRight {
+	padding: 0px;
+}
+.activeCircle-2{
+	position: relative;
+    z-index: 9;
+    background: white;
+}
+.resp-img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+.svg-img2{
+	display: none;
+}
+.nHomePageSec6 .active .accordionHeader:after{
+	content: "\f106";
+}
+
+				/*compare plans now */
+.compare-button-box{
+	    padding-bottom: 70px;
+}				
+.compare-section{
+	background-color: #cee;
+    box-shadow: 0 0 34px rgb(183 176 158 / 14%);
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 999px;
+    margin: 0 auto;
+}
+.price-heading{
+	width: 78%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.price-heading h2{
+	color: #16176e;
+	font-size: 40px;
+    line-height: 50px;
+    font-family: eb garamond;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.price-heading h4{
+	font-size: 20px;
+    line-height: 32px;
+    color: #16176e;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: Spartan-Regular;
+}
+.price-heading h6{
+	font-size: 16px;
+    line-height: 26px;
+    color: #383838;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family:Spartan-Light;
+    color: #16176e;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.secBtn{
+	width: 100%;
+    max-width: 396px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7043;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-style: normal;
+}
+.price-heading .secBtn{
+	margin: 20px auto;
+	text-decoration: none;
+	padding-top: 4px;
+}
+.price-heading:before{
+	    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    background-color: transparent;
+    width: 115px;
+    height: 99px;
+    background-image: url(https://affordablehealthcoveragetoday.com/wp-content/uploads/2022/07/arrow-green.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 9999;
+}
+.secBtn{
+	animation: shake 4s ease infinite;
+  	/*animation-iteration-count: infinite;*/
+}
+@keyframes shake {
+	  0% {
+	    transform: translate(0,0);
+	}
+	  1.78571% {
+	    transform: translate(5px,0);
+	}
+	  3.57143% {
+	    transform: translate(0,0);
+	}
+	  5.35714% {
+	    transform: translate(5px,0);
+	}
+	 7.14286% {
+	    transform: translate(0,0);
+	}
+	 8.92857% {
+	    transform: translate(5px,0);
+	}
+	  10.7143% {
+	    transform: translate(0,0);
+	}
+	  100% {
+	    transform: translate(0,0);
+	}
+}
+.secBtn::after{
+	content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #16176e;
+    transform: scale(0);
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+.color-btn::after{
+	content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #16176e;
+    transform: scale(0);
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+.color-btn:hover::after{
+	transform: scale(1.0);
+}
+.color-btn:hover{
+	color: #fff;
+}
+.secBtn:hover{
+	color: #fff;
+}
+.secBtn:hover::after{
+	transform: scale(1.0);
+}
+
+				/*paragraph-section*/
+.main-heading-disclamer{
+	padding: 0 30px 70px;
+	border-bottom: 1px solid #6e6c6c;
+}
+.disclaimer{
+	background-color: #383838;
+	padding-top: 70px;
+}
+.paragraph-section p{
+	margin: 0px;
+	font-size: 14.5px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-bottom: 5px;
+    font-family: Spartan-Regular;
+}
+.paragraph-section span{
+	font-weight: 700;
+}
+.Advertised-heading{
+	font-weight: 700;
+	color: white;
+	font-family: Spartan-Regular;
+	font-size: 14px;
+	margin-top: 50px;
+}
+.Advertised-section p{
+	margin: 0px !important;
+	font-size: 14.5px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: Spartan-Regular;
+}
+
+					/*footer*/
+.footer{
+	background-color: #383838;
+	padding: 20px 0px;
+}
+.InnerLeft p{
+	margin: 0px;
+	font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: Spartan-Regular;
+}
+.InnerRight{
+	text-align: right;
+}
+.InnerRight a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Spartan-Regular;
+	font-size: 14px;
+	margin: 0px 5px;
+}
+.InnerRight p{
+	color: white;
+	margin: 0px;
+}
+.InnerRight p a:hover{
+	color: #ff7043;
+}
+a:hover{
+	text-decoration: none;
+}
+header .color-btn::after{
+	border-radius: 50px;
+}
+.btn-shake{
+	animation: shake 4s ease infinite;
+}
+.color-btn::after{
+	content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #16176e;
+    transform: scale(0);
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+.color-btn:hover::after{
+	transform: scale(1.0);
+}
+.color-btn:hover{
+	color: #fff;
+}
+.outlinedBtn .text{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 0;
+	text-align: center;
+	text-transform: capitalize;
+	position: relative;
+}
+.outlinedBtn .text:before {
+	color: #3CD471;
+	font-size: 6px;
+	font-family: "Font Awesome 5 Free";
+	font-style: normal;
+	font-variant-caps: normal;
+	font-variant-ligatures: normal;
+	font-weight: 900;
+	content: "\f111";
+	margin-right: 6px;
+}
+.Advertised-section p, .paragraph-section p{
+	font-size: 14px;
+}
+.nHomePageSec1 .nHomePageSec1InnerLeft{
+	padding-top: 32px;
+}
+.innerRightHead{
+	font-size: 24px;
+	line-height: 36px;
+	color: #16176e;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.from-position{
+	position: relative;
+}
+.nHomePageSec1 .from-position:before {
+	content: "";
+	position: absolute;
+	left: -32%;
+	bottom: 18%;
+	background-color: transparent;
+	width: 120px;
+	height: 105px;
+	background-image: url(https://affordablehealthcoveragetoday.com/wp-content/uploads/2022/07/arrow.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+.terms-of-img{
+	text-align: center;
+	padding: 10px;
+}
+.terms-of-img img{
+	width: 48px;
+}
+.Affordable-heading h2{
+	font-family: arvo,Sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    color:#16176E;
+    margin-bottom: 20px;
+   
+}
+.Updated-affordable hr{
+	margin: 0px;
+}
+.last-u{
+	margin-bottom: 0px;
+	font-family: arvo,Sans-serif;
+}
+.Updated-affordable p{
+ 	font-family: arvo,Sans-serif;
+ 	color: #000000;
+ 	font-size: 16px;
+}
+.terms{
+	margin-bottom: 0px;
+}
+.Updated-affordable ul li{
+	font-family: arvo,Sans-serif;
+}
+
+
+.terms-of-use-footer{
+	background-color: #16176e;
+}
+.terms-footer{
+	padding: 10px;
+}
+.terms-footer p{
+	color: white;
+	text-align: center;
+	font-size: 11px;
+	margin-bottom: 0px;
+}
+
+
+/*! elementor - v3.7.0 - 08-08-2022 */
+						
+						.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+	background-color: #818a91;
+	color: #fff
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+	color: #818a91;
+	border: 3px solid;
+	background-color: transparent
+}
+
+.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+	margin-top: 8px
+}
+
+.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+	width: 1em;
+	height: 1em
+}
+
+.elementor-widget-text-editor .elementor-drop-cap {
+	float: left;
+	text-align: center;
+	line-height: 1;
+	font-size: 50px
+}
+
+.elementor-widget-text-editor .elementor-drop-cap-letter {
+	display: inline-block
+}
+table tbody tr:hover>td, table tbody tr:hover>th {
+    background-color: #e9e9e9;
+}
+table td, table th {
+    padding: 15px;
+    line-height: 1.5;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    font-family: arvo,Sans-serif;
+}
+ ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 40px;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.elementor-widget-container p {
+	/*font-family: 'Arvo', serif;*/
+	font-family: arvo,Sans-serif;
+}
+.elementor-widget-container  ul li{
+	/*font-family: 'Arvo', serif;*/
+	font-family: arvo,Sans-serif;
+}
+
+
+#form_1 .ppl_lalel{
+	padding-bottom: 10px;
+}
+#form_1 .zipcode{
+	padding-top: 4px;
+}
+#form_2 .ppl_lalel{
+	padding-bottom: 8px;
+}
+.firstBtn{
+	padding-bottom: 7px;
+}
+.card-info{
+	position: relative;
+	top: 3px;
+}
+.dob-m{
+	padding-top: 1px;
+}
+#form_3 .ppl_lalel{
+	padding-bottom: 9px;
+}
+#form_3 .dob-m{
+	padding-top: 3px !important;
+}
+.mt-16{
+	margin-top: 16px !important;
+}
+
+@media (min-width:1366px){
+	.nHomePageSec1{
+		background-size: 473px !important;
+	}
+}
+
+@media (max-width:1200px){
+	.footer-section{
+		padding: 0px 15px;
+	}
+	.innerRightHead {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.nHomePageSec1 .nHomePageSec1InnerLeft h1 {
+		font-size: 40px !important;
+		line-height: 50px !important;
+	}
+}
+@media (max-width:1024px){
+	.nHomePageSec6 .nHomePageSec6Inner{
+		display: block;
+	}
+	.imgcon{
+		display: none;
+	}
+	.svg-img2{
+		display: block;
+		text-align: center;
+	}
+	.homeFAQsInnerWrap{
+		width: 100%;
+		max-width: 668px;
+		margin: 0px auto;
+		padding: 0px 15px;
+	}
+	.nHomePageSec6 .nHomePageSec6InnerRight:after{
+		right: 98px;
+		top: 35;
+	}
+}
+@media (max-width:768px){
+	.footer-section {
+		display: block;
+		text-align: center;
+	}
+	.InnerRight {
+    	text-align: center;
+	}
+	.imgcon img{
+		width: 100%;
+    	max-width: 326px;
+	}
+	.nHomePageSec6 .nHomePageSec6InnerRight:after{
+		right: 0px;
+		top: -28;
+	}
+	.f-aq-heading-1{
+		font-size: 25px;
+	}
+	.f-aq-heading-2{
+		font-size: 13px;
+	}
+	.price-heading h2 {
+		font-size: 33px;
+	}
+	.price-heading:before{
+		right: -90px;
+	}
+	.nHomePageSec3, .nHomePageSec4, .nHomePageSec5, .nHomePageSec6, .compare-section {
+		padding: 30px 0;
+	}
+	.card-info{
+		font-size: 12px;
+	}
+	.back_form, #nextBtn{
+		font-size: 13px !important;
+		line-height: 24px !important;
+	}
+	.disclaimer{
+		padding-top: 30px;
+	}
+	.main-heading-disclamer{
+		padding: 0 0 30px 0;
+	}
+	.Advertised-section p, .paragraph-section p{
+		font-size: 11.5px;
+	}
+	.last-logo{
+		padding-left: 16px !important;
+	}
+}	
+@media (max-width:576px){
+	.card-info {
+		 top: 2px; 
+	}
+}
+@media (max-width:425px){
+	.paragraph-section p{
+		font-size: 11.5px;
+	}
+	.faqheading-box{
+		font-size: 15px !important;
+	}
+	.price-heading:before{
+		display: none;
+	}
+	.secBtn{
+		font-size: 12px;
+	}
+}
+@media (max-width: 992.98px){
+	.nHomePageSec3 .nHomePageSec3InnerLeft{
+		padding-left: 0;
+	}
+	.nHomePageSec1 {
+		padding-bottom: 320px;
+		background-size: 60%!important;
+		background-position: 0% bottom!important;
+	}
+}
+@media (max-width: 767.98px){
+	.nHHeaderInner{
+		align-items: baseline;
+	}
+	.nHomePageSec5 .nHomePageSec5Inner>h2{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.nav-logo{
+		max-width: 202px;
+		margin: 0;
+		padding: 22px 13px;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.nHomePageSec3 .nHomePageSec3InnerLeft .h2{
+		font-size: 30px;
+	}
+	.nHomePageSec3 .nHomePageSec3InnerLeft .p{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.formWrapper p{
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.p-r-20{
+		padding-right: 10px !important;
+	}
+	.nHomePageSec4 .nHomePageSec4Inner>h2{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.nHomePageSec5 .testimonialBoxInner p{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.nHomePageSec1 .from-position:before{
+		display: none;
+	}
+	.nHomePageSec1{
+		padding-top: 30px;
+	}
+	.from-position{
+		margin-right: auto;
+	}
+	.nHomePageSec1 .nHomePageSec1InnerLeft h1{
+		font-size: 30px !important;
+		line-height: 40px !important;
+	}
+	.nHomePageSec1 .nHomePageSec1InnerLeft .h4, .innerRightHead{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.Advertised-heading, .Advertised-section p, .InnerLeft p{
+		font-size: 11.5px;
+	}
+	.nHomePageHeader .nHCallBtnContainer a.outlinedBtn div.num:before{
+		font-size: 10px;
+	}
+	.nHomePageSec3 .nHomePageSec3InnerLeft{
+		padding-right: 0;
+	}
+	.mt-16-mob{
+		margin-top: 16px;
+	}
+}
+@media (max-width: 620.5px){
+	.nHCallBtnContainer a.outlinedBtn {
+		font-size: 10px;
+		line-height: 18px;
+		font-weight: 400;
+	}
+	.nHCallBtnContainer{
+		border-radius: 3px;
+		width: 100%;
+		width: 160px;
+		height: 40px;
+	}
+	.nHomePageHeader .nHCallBtnContainer a.outlinedBtn .text, .nHomePageHeader .nHCallBtnContainer a.outlinedBtn:before {
+		display: none;
+	}
+	.outlinedBtn{
+		padding-right: 0;
+	}
+}
+@media (max-width: 576.5px){
+	.nHomePageSec3 .nHomePageSec3InnerLeft .h2{
+		font-size: 26px;
+	}
+	.nHomePageSec5 .nHomePageSec5Inner>h2{
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.nHomePageSec3 .nHomePageSec3InnerLeft .p{
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.nHomePageSec4 .nHomePageSec4Inner>h2{
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.nHomePageSec4 .boxContainer .stepBoxInner h3{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.nHomePageSec5 .testimonialBoxInner p{
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.nHomePageSec5 .authdiv .authName h4{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.nHomePageSec5 .authdiv .authName h4{
+		font-size: 13px;
+	}
+}
+@media (max-width: 435.5px){
+	.nHomePageSec1 {
+		padding-bottom: 230px;
+		background-size: 92%!important;
+	}
+	.from-heading {
+		font-size: 12px !important;
+		line-height: 22px !important;
+		margin-bottom: 6px !important;
+	}
+	.nHomePageSec1 #form_2 label, #form_3 .dob-m, .one-btn {
+		font-size: 10px !important;
+		line-height: 20px !important;
+	}
+
+	#form_3 .dob-m{
+		text-align: center;
+	}
+	#start_submit {
+		line-height: 24px;
+		font-size: 13px;
+	}
+	#form_4 .dob-m{
+		font-size: 10px;
+	}
+	.btnContainer{
+		flex-wrap: nowrap !important;
+	}
+}

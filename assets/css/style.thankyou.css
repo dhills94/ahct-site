@@ -1,0 +1,164 @@
+	@font-face{
+    font-family: Spartan-Regular;
+    src: url(../fonts/Spartan-Regular.ttf)
+}
+@font-face{
+    font-family: Spartan-Light;
+    src: url(../fonts/Spartan-Light.ttf)
+}
+@font-face{
+    font-family: Spartan-Medium;
+    src: url(../fonts/Spartan-Medium.ttf)
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+}
+    /*Thank-you-page*/
+.Thank-you-page{
+	min-height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cee;
+    padding: 65px 0 70px;
+}
+.img-thank-page{
+	text-align: center;
+}
+.svg-img-page img{
+	max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.main-thank-div h1{
+	font-size: 44px;
+    line-height: 54px;
+    color: #383838;
+    font-family: eb garamond;
+    font-weight: 600;
+    margin-bottom: 28px;
+    color: #16176e;
+}
+.main-thank-div h4{
+	font-family: Spartan-Regular;
+    font-size: 28px;
+    line-height: 46px;
+    color: #16176e;
+    font-weight: 600;
+    margin-bottom: 35px !important;
+    width: 100%;
+    margin: 0px auto;
+    max-width: 922px;
+}
+.main-thank-div h6{
+	font-family: Spartan-Regular;
+    font-size: 14px;
+    line-height: 24px;
+    color: #16176e;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.ambetter-img-section{
+	width: 71%;
+	margin: 0px auto;
+}
+.imgWrapper img{
+	flex-basis: 33%;
+    max-width: 190px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 25px;
+    width: 100%;
+}
+.callBtnWrapper h5{
+	font-family: Spartan-Regular;
+    font-size: 20px;
+    line-height: 33px;
+    color: #16176e;
+    font-weight: 400;
+    margin: 21px 0px 28px 0px;
+}
+.outlinedBtn span .num{
+	position: relative;
+}
+.num:before{
+	color: #fff;
+    font-size: 22px;
+    font-family: "font awesome 5 free";
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-weight: 900;
+    content: "\f095";
+    margin-right: 12px;
+}
+.imgWrapper2{
+	height: 25px;
+    line-height: 25px;
+    width: 160px;
+    text-align: center;
+    margin: 1em 0;
+}
+.tyBtnCon{
+	max-width: 330px;
+    width: 100%;
+    margin: 30px auto 5px;
+}
+ .tyBtnCon a .outlinedBtn {
+ 	font-size: 26px;
+    line-height: 36px;
+    max-width: 330px;
+    height: 80px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    padding-right: 0;
+    align-content: center;
+    border: 2px solid #fff;
+    animation: none;
+ }
+.num{
+    font-weight: bold;
+    
+} 
+.tyBtnCon a:hover{
+	background: #16176e;
+
+}
+.btn-call-last{
+        font-size: 26px;
+    line-height: 36px;
+    max-width: 330px;
+    height: 80px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    padding-right: 0;
+    align-content: center;
+    border: 2px solid #fff;
+    animation: none;
+    background-color: #ff7043;
+}
+
+
+
+
+
+
+
+@media (max-width:425px){
+	.main-thank-div h1{
+		font-size: 34px;
+	}
+	.main-thank-div h4{
+		font-size: 17px;
+		line-height: 31px;
+	}
+	.callBtnWrapper h5{
+		font-size: 16px;
+	}
